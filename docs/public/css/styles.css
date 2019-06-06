@@ -1,21 +1,58 @@
+.bg-overlay {
+  background: linear-gradient(rgba(25, 128, 195,.3), rgba(25, 128, 195,.3)), url("../resources/herramientasQuirurgicas.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  color: #fff;
+}
+
+.btn-transparent {
+	border: 3px solid white;
+	background-color: transparent;
+	color: white;
+}
+
+.btn-white {
+	border: 0px;
+	background-color: white;
+	color: #0BA9D6;
+	font-weight: bold;
+}
+
 .centered-text-image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .banner-image{
   width: 100%; 
   height: auto;
-  margin-top: -137px;
+  margin-top: -200px;
+}
+.banner-title{
+  font-size: 90px
 }
 .bg-blu       { background-color: #1980C3; }
 .bg-light-blu { background-color: #0BA9D6; }
 .bg-aqua      { background-color: #14B5B5; }
+
+.divider{
+  height: 20px; 
+  margin-left:1px;
+  margin-right:1px;
+}
 .img-logo { width: 150px; }
+
 @media only screen and (min-width: 768px) {
   .img-logo { width: 200px; }
 }
+
+.col-centered{
+	margin: 0 auto;
+}
+
 .lg-icon {
   cursor: pointer;
   font-size: 3rem;
@@ -45,11 +82,40 @@
   cursor: pointer;
   font-size: 2rem;
 }
-.text-centered-header
-{
+.text-blu {
+  color: #1980C3;
+}
+.text-centered-header {
   font-size: 14px;
   text-align: center;
   font-weight: bold
+}
+
+.text-light-blu {
+  color: #0BA9D6
+}
+
+.text-aqua {
+  color: #14B5B5;
+}
+
+.text-centered-header
+{
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold
+}
+
+.text-responsive{
+  font-size: 3rem;
+  margin-top: -150px
+}
+@media only screen and(max-width:768px){
+  .text-responsive{
+    font-size: 1rem;
+    margin-top: -10px
+  }
 }
 .text-white-header {
 	color: white;
@@ -69,7 +135,34 @@
   max-width: 400px !important;
 }
 
+.text-white {
+	font-size: 15px;
+	color: white;
+}
+
+.white-header-width {
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
 #head-orders{
   margin-top: 8%
 }
 
+
+#head-orders{
+  margin-top: 8%
+}
+
+
+#navi{
+  z-index: 1;
+}
+
+
+.img-brain { 
+  opacity: 0.5;
+  margin-left: -10%;
+  width: 60%; 
+  height:auto;
+}

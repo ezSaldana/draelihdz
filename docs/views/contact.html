@@ -21,36 +21,119 @@
 
 <body>
   <!-- MENU -->
-  <div class="mb-5">
-    <nav class="navbar navbar-expand-lg navbar-light py-4 bg-primary">
-      <a class="navbar-brand ml-4 text-white font-weight-bolder" href="../index.html">
-        <img src="../public/resources/assetLogoWhite.png" alt="NO_IMG" class="img-fluid img-logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto text-center mt-3 mt-md-0 mr-4">
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="../index.html">INICIO</a>
-          </li>
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="aboutUs.html">NOSOTROS</a>
-          </li>
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="services.html">SERVICIOS</a>
-          </li>
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="contact.html">CONTACTO</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light py-4" style="z-index: 1">
+    <a class="navbar-brand ml-4 text-white font-weight-bolder" href="../index.html">
+      <img src="../public/resources/assetLogoWhite.png" alt="NO_IMG" class="img-fluid img-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto text-center mt-3 mt-md-0 mr-4">
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="../index.html">INICIO</a>
+        </li>
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="./aboutUs.html">NOSOTROS</a>
+        </li>
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="./services.html">SERVICIOS</a>
+        </li>
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="./contact.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- BODY -->
   <div class="container">
-    <h1 class="p-5">CONTACT</h1>
+    <div class="p-0" style="margin-top: -187px">
+      <div class="card text-white text-center border-0">
+        <img src="../public/resources/doctora.jpg" alt="Doctora" class="card-img" style="max-height: 750px">
+        <div class="card-img-overlay d-flex justify-content-center pb-5 layer-blu">
+          <p class="card-text align-self-end text-responsive">
+            Contacto
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-aqua m-0 p-0" style="height: 50px;"></div>
+      <br><br>
+
+      <div class="col-md-6 col-centered text-center text-responsive">
+        ¡Estamos a tu servicio!
+      </div>
+      <div class="col-md-6 col-centered text-center text-blu text-responsive-small">
+        Trabajamos constantemente para poder ofrecer un servicio de calidad
+      </div>
+      <br><br>
+
+      <div class="row justify-content-md-center m-0">
+        <div class="col-md-6 p-0 text-center d-flex justify-content-center">
+          <div class="col-9">
+            <div id="googleMap2" style="width:100%;height:300px;"></div>
+            <br>
+            <b class="text-uppercase">Centro médico Puerta de Hierro</b>
+            <p class="text-blu">
+              <br>
+              (33) 3563 2135
+              <br>
+              Blvd. Puerta de Hierro 5150
+              <br>
+              Edif. C piso 3. Consultorio 309
+              <br>
+              Plaza Corp. Zapopan
+              <br>
+              Zapopan, Jalisco
+              <br>
+            </p>
+          </div>
+
+        </div>
+        <div class="col-md-6 p-0 text-center d-flex justify-content-center">
+          <div class="col-9">
+            <div id="googleMap1" style="width:100%;height:300px;"></div>
+            <br>
+            <b class="text-uppercase">Hospital Ángeles del Pedregal</b>
+            <p class="text-blu">
+              <br>
+              (55) 5568 6734 / (55) 5568 6957
+              <br>
+              Periférico Sur 3697-1025
+              <br>
+              Consultorio 1025
+              <br>
+              Col. Héroes de Padierna
+              <br>
+              CDMX
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+
+      <script>
+        function myMap1() {
+          var mapProp1 = {
+            center: new google.maps.LatLng(20.708895, -103.414143),
+            zoom: 5,
+          };
+          var map1 = new google.maps.Map(document.getElementById("googleMap1"), mapProp1);
+        }
+        function myMap2() {
+          var mapProp2 = {
+            center: new google.maps.LatLng(20.708895, -103.414143),
+            zoom: 5,
+          };
+          var map2 = new google.maps.Map(document.getElementById("googleMap2"), mapProp2);
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNPggVS3yWGC6U3IyWV4K8ftFXMAwf_Ew&callback=myMap2"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYLNC1B2fwc9DAv4FfVHOGHsg0-sn6DlQ&callback=myMap1"></script>
+
+    </div>
   </div>
   <!-- FOOTER -->
   <div class="mt-5">

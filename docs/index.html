@@ -21,36 +21,129 @@
 
 <body>
   <!-- MENU -->
-  <div class="mb-5">
-    <nav class="navbar navbar-expand-lg navbar-light py-4 bg-primary">
-      <a class="navbar-brand ml-4 text-white font-weight-bolder" href="index.html">
-        <img src="./public/resources/assetLogoWhite.png" alt="NO_IMG" class="img-fluid img-logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto text-center mt-3 mt-md-0 mr-4">
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="index.html">INICIO</a>
-          </li>
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="./views/aboutUs.html">NOSOTROS</a>
-          </li>
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="./views/services.html">SERVICIOS</a>
-          </li>
-          <li class="nav-item px-md-2">
-            <a class="nav-link text-white" href="./views/contact.html">CONTACTO</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light py-4" style="z-index: 1">
+    <a class="navbar-brand ml-4 text-white font-weight-bolder" href="index.html">
+      <img src="./public/resources/assetLogoWhite.png" alt="NO_IMG" class="img-fluid img-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto text-center mt-3 mt-md-0 mr-4">
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="index.html">INICIO</a>
+        </li>
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="./views/aboutUs.html">NOSOTROS</a>
+        </li>
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="./views/services.html">SERVICIOS</a>
+        </li>
+        <li class="nav-item px-md-2">
+          <a class="nav-link text-white" href="./views/contact.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- BODY -->
   <div class="container">
-    <h1 class="p-5">INIÇAO PAGE</h1>
+    <div class="p-0" style="margin-top: -187px; z-index: 0">
+      <div class="card text-white text-center border-0">
+        <img src="./public/resources/herramientasQuirurgicas.jpg" alt="" class="card-img" style="max-height: 750px">
+        <div class="card-img-overlay d-flex justify-content-center pb-5 layer-blu">
+          <p class="card-text align-self-end text-responsive">
+            Especialista en <b>Neurocirugía</b>,
+            <br>
+            cirugía de base de cráneo.
+            <br>
+            <b>Columna y Cerebro</b>
+            <br><br>
+            <button class="btn-transparent">ver más</button>
+          </p>
+        </div>
+      </div>
+      <div class="bg-aqua m-0 p-0" style="height: 50px;"></div>
+      <br><br>
+      <div class="container-fluid">
+        <div class="row justify-content-md-center">
+          <div class="col-md-5 justify-content-md-center">
+            <img src="./public/resources/consejo_neurologia.png" alt="Herramientas quirurgicas" class="img-fluid" style="width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <p class="text-uppercase text-blu" style="text-align: center; font-size: 25px;">
+          Certificada por el consejo mexicano de cirugía neurológica A.C.
+          <br>
+          Miembro del consejo mexicano de cirugía neurológica A.C.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="card text-center border-0 col-md-4 col-sm-12 p-0">
+            <img src="./public/resources/dolorDeCabeza.jpg" alt="Dolor de cabeza" class="card-img" style="max-height: 750px">
+            <div class="card-img-overlay d-flex justify-content-center pb-4 layer-blu">
+              <p class="card-text align-self-end text-responsive-small text-white">
+                Dolor de cabeza, traumatismo craneocefálico y tumores.
+                <br><br>
+                <button class="btn-transparent">ver más</button>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center border-0 col-md-4 col-sm-12 p-0">
+            <img src="./public/resources/dolorDeEspalda.jpg" alt="Dolor de espalda" class="card-img" style="max-height: 750px">
+            <div class="card-img-overlay d-flex justify-content-center pb-4 layer-aqua">
+              <p class="card-text align-self-end text-responsive-small text-white">
+                Dolor de columna.
+                <br><br>
+                <button class="btn-transparent">conocer más</button>
+              </p>
+            </div>
+          </div>
+          <div class="card text-center border-0 col-md-4 col-sm-12 p-0 bg-light-blu">
+            <div class="d-flex justify-content-center pt-5">
+              <p class="card-text text-responsive-small text-white pt-5">
+                <b>Agenda tu cita</b>
+                <br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="card text-white text-center border-0">
+        <img src="./public/resources/doctores.jpg" alt="Doctores" class="card-img" style="max-height: 750px">
+        <div class="card-img-overlay d-flex justify-content-center">
+          <p class="card-text text-responsive">
+            <div class="row bg-light-blu">
+              <div class="col-12 text-white-header">
+                Consultorio dentro<br> de la República
+              </div>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col-6 text-white">
+                <p style="font-weight: bold; font-size: 20px">Centro médico Puerta de Hierro</p>
+                (33) 3563 2135
+                Blvd. Puerta de Hierro 5150
+                Edif. C piso 3, Consultorio 309
+                Plaza Corp. Zapopan
+                Zapopan Jalisco
+              </div>
+              <div class="col-6 text-white">
+                <p style="font-weight: bold; font-size: 20px">Hospital Ángeles del Pedregal</p>
+                (55) 5568 6734 /(55) 5568 6957
+                Periférico Sur 3697-1025
+                Consultorio 1025
+                Col. Héroes de Padierna
+                CDMX
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- FOOTER -->
   <div class="mt-5">
@@ -71,7 +164,7 @@
       <div class="row p-4 text-blu text-center text-md-left">
         <div class="col-12 col-md-2 my-4 my-md-0">
           <a href="index.html">
-            <img src="./public/resources/assetLogoBlue.png" alt="NO_IMG" class="img-fluid img-logo">
+            <img src="../public/resources/assetLogoBlue.png" alt="NO_IMG" class="img-fluid img-logo">
           </a>
         </div>
         <div class="col-12 col-md-6 my-2 my-md-auto pl-md-5">
