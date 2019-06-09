@@ -1,3 +1,6 @@
+/* * { font-size: 1rem; } */
+a { cursor: pointer; }
+
 .bg-overlay {
   background: linear-gradient(rgba(25, 128, 195,.3), rgba(25, 128, 195,.3)), url("../resources/herramientasQuirurgicas.jpg");
   background-repeat: no-repeat;
@@ -7,6 +10,7 @@
 }
 
 .btn-transparent {
+  width: 150px;
 	border: 3px solid white;
 	background-color: transparent;
 	color: white;
@@ -20,7 +24,7 @@
 }
 
 .centered-text-image {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -37,16 +41,21 @@
 .bg-blu       { background-color: #1980C3; }
 .bg-light-blu { background-color: #0BA9D6; }
 .bg-aqua      { background-color: #14B5B5; }
+@media only screen and (max-width: 768px) {
+  .bg-collapse { background-color: rgba(25, 128, 195, .9); }
+}
 
 .divider{
   height: 20px; 
   margin-left:1px;
   margin-right:1px;
 }
-.img-logo { width: 150px; }
+.img-logo        { width: 100px; }
+.img-logo-footer { width: 200px; }
 
 @media only screen and (min-width: 768px) {
-  .img-logo { width: 200px; }
+  .img-logo        { width: 200px; }
+  .img-logo-footer { width: 250px; }
 }
 
 .col-centered{
@@ -85,7 +94,8 @@
 .text-blu {
   color: #1980C3;
 }
-.text-centered-header {
+.text-centered-header
+{
   font-size: 14px;
   text-align: center;
   font-weight: bold
@@ -130,14 +140,10 @@
 .text-blu       { color: #1980C3; }
 .text-light-blu { color: #0BA9D6; }
 .text-aqua      { color: #14B5B5; }
-.text-white      { color: #ffffff; }
+.text-white     { color: #ffffff; }
 .responsive-image{
   max-width: 400px !important;
-}
-
-.text-white {
-	font-size: 15px;
-	color: white;
+	text-align: center;
 }
 
 .white-header-width {
@@ -165,4 +171,118 @@
   margin-left: -10%;
   width: 60%; 
   height:auto;
+}
+
+.text-responsive {
+	font-size: 3rem;
+}
+@media only screen and (max-width: 962px){
+	.text-responsive {
+		font-size: 2rem;
+	}
+}
+@media only screen and (max-width: 770px){
+	.text-responsive {
+		font-size: 1rem;
+	}
+}
+
+.text-responsive-small {
+	font-size: 1.5rem;
+}
+@media only screen and (max-width: 990px){
+	.text-responsive-small {
+		font-size: 1rem;
+	}
+}
+
+
+.cont {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.layer-blu {
+    background-color: rgba(25, 128, 195,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer-light-blu {
+    background-color: rgba(11, 169, 214,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer-aqua {
+    background-color: rgba(20, 181, 181,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 20px;
+} 
+.input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #0BA9D6;
+}
+.main-head{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.md-icon {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.text-centered-header
+{
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold
+}
+.text-white-header {
+	color: white;
+	font-size:  25px!important ;
+}
+.text-paragraph{
+  text-align: justify
+}
+.text-centered{
+  text-align: center
+}
+.text-blu       { color: #1980C3; }
+.text-light-blu { color: #0BA9D6; }
+.text-aqua      { color: #14B5B5; }
+.text-white     { color: #ffffff; }
+.responsive-image{
+  max-width: 400px !important;
+}
+
+#head-orders{
+  margin-top: 8%
 }

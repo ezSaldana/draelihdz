@@ -20,175 +20,104 @@
 </head>
 
 <body>
-  <!-- MENU -->
-  <nav class="navbar navbar-expand-lg navbar-light py-4" style="z-index: 1">
-    <a class="navbar-brand ml-4 text-white font-weight-bolder" href="../index.html">
-      <img src="../public/resources/assetLogoWhite.png" alt="NO_IMG" class="img-fluid img-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto text-center mt-3 mt-md-0 mr-4">
-        <li class="nav-item px-md-2">
-          <a class="nav-link text-white" href="../index.html">INICIO</a>
-        </li>
-        <li class="nav-item px-md-2">
-          <a class="nav-link text-white" href="./aboutUs.html">NOSOTROS</a>
-        </li>
-        <li class="nav-item px-md-2">
-          <a class="nav-link text-white" href="./services.html">SERVICIOS</a>
-        </li>
-        <li class="nav-item px-md-2">
-          <a class="nav-link text-white" href="./contact.html">CONTACTO</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- BODY -->
-
-  <div class="container-fluid">
-    <div id="banner" class="card text-white text-center border-0">
-      <img src="/resources/assetUs.png" alt="" class="card-img banner-image">
-      <div class="card-img-overlay d-flex justify-content-center">
-        <p class="card-text align-self-center text-responsive">
-          Nosotros
-        </p>
-      </div>
-    </div>
-    <div class="row bg-aqua divider"></div>
-    <div class="row p-4">
-      <h6 class="main-head text-centered-header">Especialistas del sistema nervioso, lo que significa que tratamos
-        enfermedades Cerebro, Medula Espinal y
-        nervio Periférico,
-        así como los huesos que lo protegen, a saber el Cráneo y la Columna Vertebral.
-      </h6>
-    </div>
-    <hr class="hr bg-light-blu">
-    <div class="row">
-      <div class="col-md">
-        <h4 class="text-centered-header">DRA ELI HERNÁNDEZ</h3>
-          <p class="text-paragraph">Egresada de la carrera de medicina de la Universidad de Guadalajara, la Dra. Eli
-            Hernández cuenta con amplia
-            experiencia en el estudio de cerebro y columna.</p>
-          <p class="text-paragraph">Ha realizado diversos trabajos en investigación, capitulos en libros de
-            Neurocirugía
-            además de publicaciones. </p>
-          <p class="text-paragraph">Forma parte de un equipo quirúrgico en el Hospital Angeles del Pedregal en la
-            Ciudad
-            de México y otro más en la ciudad de Guadalajara.</p>
-          <p class="text-paragraph">Certificada por el Consejo Mexicano de Cirugía Neurológica.</p>
-          <br />
-          <img class="img-fluid responsive-image" src="/resources/consejo_neurologia.png">
-          <br /><br />
-      </div>
-      <div class="col-md">
-        <div class="row">
-          <div class="col">
-            <img src="/resources/radiografiaCabeza.jpg" id="img-radio-head" class="img-fluid d-block mx-auto responsive-image">
-          </div>
-
-        </div>
-        <br />
-        <div class="row">
-          <div class="col">
-            <img src="/resources/radiografiaDoctores.jpg" id="img-radio-doctors" class="img-fluid d-block mx-auto responsive-image">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <!-- BODY -->
+      <div class="col-12" style="z-index: 0">
+        <div class="card text-white text-center border-0">
+          <img src="../public/resources/assetUs.png" alt="aboutUs" class="card-img"
+            style="max-height: 750px">
+          <div class="card-img-overlay d-flex flex-column justify-content-center layer-blu p-0">
+            <div class="row no-gutters mb-auto">
+              <!-- MENU -->
+              <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light py-1 py-md-4 px-0" style="z-index: 1">
+                  <a class="navbar-brand ml-2 ml-md-5 text-white font-weight-bolder" href="../index.html">
+                    <img src="../public/resources/assetLogoWhite.png" alt="Logo Nav" class="img-fluid img-logo">
+                  </a>
+                  <button class="navbar-toggler border-0 mr-2 mr-md-5" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-bars text-white"></span>
+                  </button>
+                  <div class="collapse navbar-collapse bg-collapse py-2 py-md-0" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-center mt-md-0">
+                      <li class="nav-item px-md-2">
+                        <a class="nav-link text-white" href="../index.html">INICIO</a>
+                      </li>
+                      <li class="nav-item px-md-2">
+                        <a class="nav-link text-white" href="aboutUs.html">NOSOTROS</a>
+                      </li>
+                      <li class="nav-item px-md-2">
+                        <a class="nav-link text-white" href="services.html">SERVICIOS</a>
+                      </li>
+                      <li class="nav-item px-md-2">
+                        <a class="nav-link text-white" href="contact.html">CONTACTO</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center my-md-auto">
+              <p class="card-text text-responsive align-self-center">
+                <b class="text-uppercase">Nosotros</b>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <div class="row">
-      <div class="col-md bg-aqua">
-        <h4 id="head-orders" class="text-centered-header text-white-header">¡Estamos a tu servicio!</h4>
-        <p class=" text-centered text-white">Trabajamos constantemente para poder ofrecerte un servicio de calidad</p>
-      </div>
-      <div class="col-md">
-        <form>
-          <div class="form-group row">
-            <label class="col-sm-2 col-form-label text-centered-header">Nombre</label>
-            <div class="col-sm-10">
-              <input class="form-control input" id="inputName">
+
+        <div class="bg-aqua mb-5" style="height: 50px;"></div>
+
+        <h1 class="p-5">ABOUT US PAGE</h1>
+        
+    <div class="row no-gutters mt-5">
+      <!-- FOOTER -->
+      <div class="col-12">
+        <div class="container-fluid p-0">
+          <div class="row no-gutters bg-blu text-center py-4 text-white">
+            <div class="col-12 col-md-6 text-md-right">
+              <h5 class="font-weight-bold">Si deseas más información contáctanos vía e-mail:</h5>
+            </div>
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+              <h5 class="font-weight-bold">
+                <a class="text-white align-top" href="contact.html">
+                  <i class="far fa-envelope text-white md-icon"></i>
+                  contacto@doctoraelihdz.com
+                </a>
+              </h5>
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-sm-2 col-form-label text-centered-header">Teléfono</label>
-            <div class="col-sm-10">
-              <input class="form-control input" id="inputTelephone">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label class="col-sm-2 col-form-label text-centered-header">Email</label>
-            <div class="col-sm-10">
-              <input class="form-control input" id="inputEmail">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label class="col-sm-2 col-form-label text-centered-header">Mensaje:</label>
-            <div class="col-sm-10">
-              <textarea class="form-control input" id="txtAreaMessage" rows="3"></textarea>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col text-center text-md-right">
-              <a class="btn btn-light text-centered-header">
-                Enviar
-                <i class="fas fa-arrow-right text-aqua"></i>
+          <div class="row no-gutters p-4 text-blu text-center text-md-left">
+            <div class="col-12 col-md-2 my-4 my-md-0">
+              <a href="../index.html">
+                <img src="../public/resources/assetLogoBlue.png" alt="Logo footer" class="img-fluid img-logo-footer">
               </a>
             </div>
+            <div class="col-12 col-md-6 my-2 my-md-auto pl-md-5 pr-md-2">
+              <p class="text-uppercase">
+                Certificada por el consejo mexicano de cirugía neurológica A.C.
+                <br>
+                Miembro del consejo mexicano de cirugía neurológica A.C.
+              </p>
+            </div>
+            <div class="col-12 col-md-2 my-2 my-md-0">
+              <a class="text-decoration-none text-uppercase" href="../index.html">Inicio</a>
+              <br>
+              <a class="text-decoration-none text-uppercase" href="aboutUs.html">Nosotros</a>
+              <br>
+              <a class="text-decoration-none text-uppercase" href="services.html">Servicios</a>
+              <br>
+              <a class="text-decoration-none text-uppercase" href="contact.html">Contacto</a>
+            </div>
+            <div class="col-12 col-md-2 lg-icon my-2 my-md-0">
+              <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-square align-middle"></i></a>
+              <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram align-middle"></i></a>
+            </div>
           </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <!-- FOOTER -->
-  <div class="mt-5">
-    <div class="container-fluid">
-      <div class="row bg-blu text-center py-4 text-white">
-        <div class="col-12 col-md-6 text-md-right">
-          <h5 class="font-weight-bold">Si deseas más información contáctanos vía e-mail:</h5>
+          <div class="row no-gutters text-center text-secondary">
+            <p class="col font-weight-lighter font-italic">Draelihdz 2019. Derechos Reservados</p>
+          </div>
         </div>
-        <div class="col-12 col-md-6 mt-3 mt-md-0">
-          <h5 class="font-weight-bold">
-            <a class="text-white align-top" href="contact.html">
-              <i class="far fa-envelope text-white md-icon"></i>
-              contacto@doctoraelihdz.com
-            </a>
-          </h5>
-        </div>
-      </div>
-      <div class="row p-4 text-blu text-center text-md-left">
-        <div class="col-12 col-md-2 my-4 my-md-0">
-          <a href="../index.html">
-            <img src="../public/resources/assetLogoBlue.png" alt="NO_IMG" class="img-fluid img-logo">
-          </a>
-        </div>
-        <div class="col-12 col-md-6 my-2 my-md-auto pl-md-5">
-          <p class="text-uppercase">
-            Certificada por el consejo mexicano de cirugía neurológica A.C.
-            <br>
-            Miembro del consejo mexicano de cirugía neurológica A.C.
-          </p>
-        </div>
-        <div class="col-12 col-md-2 my-2 my-md-0">
-          <a class="text-decoration-none text-uppercase" href="../index.html">Inicio</a>
-          <br>
-          <a class="text-decoration-none text-uppercase" href="aboutUs.html">Nosotros</a>
-          <br>
-          <a class="text-decoration-none text-uppercase" href="services.html">Servicios</a>
-          <br>
-          <a class="text-decoration-none text-uppercase" href="contact.html">Contacto</a>
-        </div>
-        <div class="col-12 col-md-2 lg-icon my-2 my-md-0">
-          <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-square align-middle"></i></a>
-          <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram align-middle"></i></a>
-        </div>
-      </div>
-      <div class="row text-center text-secondary">
-        <p class="col font-weight-lighter font-italic">Draelihdz 2019. Derechos Reservados</p>
       </div>
     </div>
   </div>
@@ -200,6 +129,8 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <!-- LOCAL SCRIPTS -->
+  <script src="../public/js/styles.js"></script>
 </body>
 
 </html>
