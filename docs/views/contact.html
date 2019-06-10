@@ -27,10 +27,10 @@
         <div class="card text-white text-center border-0">
           <img src="../public/resources/doctora.jpg" alt="contact" class="card-img" style="max-height: 750px">
           <div class="card-img-overlay d-flex flex-column justify-content-center layer-blu p-0">
-            <div class="row no-gutters mb-auto">
+            <div class="row no-gutters">
               <!-- MENU -->
               <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light py-1 py-md-4 px-0" style="z-index: 1">
+                <nav class="navbar navbar-expand-lg navbar-light py-1 py-md-4 px-0" style="z-index: 10">
                   <a class="navbar-brand ml-2 ml-md-5 text-white font-weight-bolder" href="../index.html">
                     <img src="../public/resources/assetLogoWhite.png" alt="Logo Nav" class="img-fluid img-logo">
                   </a>
@@ -57,8 +57,8 @@
                 </nav>
               </div>
             </div>
-            <div class="d-flex justify-content-center my-md-auto">
-              <p class="card-text text-responsive align-self-center">
+            <div class="d-flex justify-content-center my-auto">
+              <p class="card-text text-responsive">
                 <b class="text-uppercase">Contacto</b>
               </p>
             </div>
@@ -67,7 +67,60 @@
 
         <div class="bg-aqua mb-5" style="height: 50px;"></div>
 
-        <h1 class="p-5">CONTACT PAGE</h1>
+        <div class="container">
+          <div class="text-center">
+            <p class="text-responsive text-blu">
+              ¡Estamos a tu servicio!
+            </p>
+            <p class="text-responsive-small mb-4 mb-md-5 text-light-blu">
+              Trabajamos constantemente para
+              <br>
+              poder ofrecer un servicio de calidad
+            </p>
+          </div>
+          <div class="row no-gutters m-0">
+            <div class="col-md-6 text-center d-flex justify-content-center">
+              <div class="col-9">
+                <div id="googleMap2" style="width:100%;height:300px;"></div>
+                <br>
+                <b class="text-uppercase">Centro médico Puerta de Hierro</b>
+                <p class="text-blu">
+                  <br>
+                  (33) 3563 2135
+                  <br>
+                  Blvd. Puerta de Hierro 5150
+                  <br>
+                  Edif. C piso 3. Consultorio 309
+                  <br>
+                  Plaza Corp. Zapopan
+                  <br>
+                  Zapopan, Jalisco
+                  <br>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center d-flex justify-content-center">
+              <div class="col-9">
+                <div id="googleMap1" style="width:100%;height:300px;"></div>
+                <br>
+                <b class="text-uppercase">Hospital Ángeles del Pedregal</b>
+                <p class="text-blu">
+                  <br>
+                  (55) 5568 6734 / (55) 5568 6957
+                  <br>
+                  Periférico Sur 3697-1025
+                  <br>
+                  Consultorio 1025
+                  <br>
+                  Col. Héroes de Padierna
+                  <br>
+                  CDMX
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="row no-gutters mt-5">
           <!-- FOOTER -->
@@ -128,8 +181,12 @@
         crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+      <!-- GOOGLE SCRIPTS -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNPggVS3yWGC6U3IyWV4K8ftFXMAwf_Ew&callback=myMap2"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYLNC1B2fwc9DAv4FfVHOGHsg0-sn6DlQ&callback=myMap1"></script>
       <!-- LOCAL SCRIPTS -->
       <script src="../public/js/styles.js"></script>
+      <script src="../public/js/map.js"></script>
 </body>
 
 </html>
