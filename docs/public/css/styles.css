@@ -6,7 +6,7 @@ a { cursor: pointer; }
 }
 
 .bg-overlay {
-  background: linear-gradient(rgba(25, 128, 195,.3), rgba(25, 128, 195,.3)), url("../resources/herramientasQuirurgicas.jpg");
+  background: linear-gradient(rgba(25,128,195,.3), rgba(25,128,195,.3)), url("../resources/herramientasQuirurgicas.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
@@ -45,7 +45,7 @@ a { cursor: pointer; }
 .bg-light-blu { background-color: #0BA9D6; }
 .bg-aqua      { background-color: #14B5B5; }
 @media only screen and (max-width: 768px) {
-  .bg-collapse { background-color: rgba(25, 128, 195, .9); }
+  .bg-collapse { background-color: rgba(25,128,195,.9); }
 }
 
 .divider{
@@ -85,10 +85,7 @@ a { cursor: pointer; }
   outline: 0;
   background: transparent;
   border-bottom: 1px solid #0BA9D6;
-}
-.main-head{
-  margin-left: 20px;
-  margin-right: 20px;
+  border-radius: 0;
 }
 .md-icon {
   cursor: pointer;
@@ -128,9 +125,6 @@ a { cursor: pointer; }
 	color: white;
 	font-size:  25px!important ;
 }
-.text-paragraph{
-  text-align: justify
-}
 .text-centered{
   text-align: center
 }
@@ -138,11 +132,6 @@ a { cursor: pointer; }
 .text-light-blu { color: #0BA9D6; }
 .text-aqua      { color: #14B5B5; }
 .text-white     { color: #ffffff; }
-.responsive-image{
-  max-width: 400px !important;
-	text-align: center;
-}
-
 .white-header-width {
 	margin-right: 20%;
 	margin-left: 20%;
@@ -209,7 +198,7 @@ a { cursor: pointer; }
 
 
 .layer-blu {
-    background-color: rgba(25, 128, 195,.4);
+    background-color: rgba(25,128,195,.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -217,7 +206,7 @@ a { cursor: pointer; }
     height: 100%;
 }
 .layer-light-blu {
-    background-color: rgba(11, 169, 214,.4);
+    background-color: rgba(11,169,214,.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -225,7 +214,7 @@ a { cursor: pointer; }
     height: 100%;
 }
 .layer-aqua {
-    background-color: rgba(20, 181, 181,.4);
+    background-color: rgba(20,181,181,.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -256,12 +245,6 @@ a { cursor: pointer; }
   cursor: pointer;
   font-size: 2rem;
 }
-.text-centered-header
-{
-  font-size: 14px;
-  text-align: center;
-  font-weight: bold
-}
 .text-white-header {
 	color: white;
 	font-size:  25px!important ;
@@ -276,10 +259,6 @@ a { cursor: pointer; }
 .text-light-blu { color: #0BA9D6; }
 .text-aqua      { color: #14B5B5; }
 .text-white     { color: #ffffff; }
-.responsive-image{
-  max-width: 400px !important;
-}
-
-#head-orders{
-  margin-top: 8%
+@media only screen and (min-width: 768px) {
+  .max-md-img-size{ max-width: 400px !important; }
 }
