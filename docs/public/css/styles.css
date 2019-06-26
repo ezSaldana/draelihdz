@@ -41,6 +41,14 @@ a { cursor: pointer; }
 .banner-title{
   font-size: 90px
 }
+@media only screen and (min-width: 768px) {
+  .bg-brain { 
+    background-image: url(../resources/assetBrain.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: -25% 150%;
+  }
+}
 .bg-blu       { background-color: #1980C3; }
 .bg-light-blu { background-color: #0BA9D6; }
 .bg-aqua      { background-color: #14B5B5; }
