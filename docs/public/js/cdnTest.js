@@ -1,1 +1,1 @@
-console.log('log from cdn');
+document.getElementById("page_wrapper").appendChild("<h1>Hello world!</h1>);
